@@ -6,17 +6,16 @@ theme_ts <- function(){
     axis.title = ggplot2::element_text(size = 10),
     plot.title = ggplot2::element_text(
       hjust = 0,
-      face = "bold",
+      family = "Avenir Heavy",
       size = 16,
       margin = margin(0.0, 0, 0.2, 0, "cm")
     ),
     plot.subtitle = ggplot2::element_text(
       size = 14,
       hjust = 0,
-      face = "italic",
       margin = margin(0.0, 0, 0.15, 0, "cm")
     ),
-    plot.caption = ggplot2::element_text(size = 10, face = "italic", hjust = 1),
+    plot.caption = ggplot2::element_text(size = 10, hjust = 1),
     panel.background = ggplot2::element_blank(),
     panel.grid.major.y = ggplot2::element_line(
       linewidth = 0.4,
@@ -26,7 +25,7 @@ theme_ts <- function(){
     legend.title = ggplot2::element_text(face = "bold", size = 11),
     strip.background = ggplot2::element_rect(fill = tsColor("purple"), colour = NA),
     strip.text = ggplot2::element_text(
-      colour = "white", size = 11, face = "bold",
+      colour = "white", size = 11, family = "Avenir Heavy",
       margin = margin(0.15, 0, 0.15, 0, "cm")
     )
   )

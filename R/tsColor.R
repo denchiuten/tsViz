@@ -1,13 +1,12 @@
 #pick colors by name
 tsColor <- function(color) {
   tsPaletteNamed <- c(
-    purple = "#7C66CC",
-    darkpurple = "#333366",
+    purple = "#6E56CF",
+    darkpurple = "#20134B",
+    red = "#E5484D",
     white = "#FFFFFF",
-    green = "#57C1B5",
-    blue = "#89CFF1",
-    orange = "#F67C6C",
-    yellow = "#F1C564",
+    green = "#55b467",
+    orange = "#F76808",
     richblack = "#0C0C0C",
     darkgrey = "#1D1B20",
     onyx = "#333745"
